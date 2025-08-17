@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top mt-3 mb-5">
+      <div class="container d-flex justify-content-between align-items-center">
+        <!-- ✅ Logo -->
+        <a class="navbar-brand" href="#">
+          <img
+            src="https://themewagon.github.io/E-learning/images/logo/logo.svg"
+            alt="Logo"
+          />
+        </a>
+
+        <!-- ✅ Toggler icon -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#navbarOffcanvasLg"
+          aria-controls="navbarOffcanvasLg"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- ✅ Offcanvas menu -->
+        <div
+          class="offcanvas offcanvas-end"
+          tabindex="-1"
+          id="navbarOffcanvasLg"
+          aria-labelledby="navbarOffcanvasLgLabel"
+        >
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="navbarOffcanvasLgLabel">
+              <img
+                src="https://themewagon.github.io/E-learning/images/logo/logo.svg"
+                alt="Logo"
+              />
+            </h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+          </div>
+
+          <div class="offcanvas-body">
+            <div
+              class="d-flex flex-column flex-lg-row justify-content-between align-items-center gap-4 p-4"
+            >
+              <!-- ✅ Navigation links -->
+              <div class="d-flex flex-column flex-lg-row gap-4">
+                <a href="#" class="text-black">Home</a>
+                <a href="#">Courses</a>
+                <a href="#">Mentor</a>
+                <a href="#">Group</a>
+                <a href="#">Testimonial</a>
+                <a href="#">Docs</a>
+              </div>
+            </div>
+            <div class="d-md-flex gap-3">
+              <button>Sign in</button>
+              <button>Sign up</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <header class="container mt-3 pt-3 d-sm-block d-md-flex">
+      <div
+        id="leftside"
+        class="d-flex flex-column justify-content-center gap-4"
+      >
+        <div class="d-flex gap-3">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+          >
+            <path
+              fill="#8bc34a"
+              d="M9 3L8 6H4l1 4l-3 2l3 2l-1 4h4l1 3l3-2l3 2l1-3h4l-1-4l3-2l-3-2l1-4h-4l-1-3l-3 2zm7 5l1 1l-7 7l-3-3l1-1l2 2z"
+            />
+          </svg>
+          <p>Get 30% off on first enroll</p>
+        </div>
+        <div class="d-flex flex-column gap-3">
+          <h1>
+            Advance your <br />
+            engineering skills with <br />
+            us.
+          </h1>
+          <h3>
+            Build skills with our courses and mentor from world-class companies.
+          </h3>
+        </div>
+        <div class="d-flex position-relative">
+          <input
+            class="form-control rounded-pill"
+            type="email"
+            placeholder="Search Courses..."
+          />
+          <button class="btn btn-primary rounded-pill">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="36px"
+              height="36px"
+              viewBox="0 0 24 24"
+            >
+              <g fill="none" stroke="currentColor" stroke-width="1">
+                <circle cx="11" cy="11" r="5.5" />
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="m15 15l4 4"
+                />
+              </g>
+            </svg>
+          </button>
+        </div>
+        <div class="d-flex justify-content-between gap-3 mt-3">
+          <div class="d-flex align-items-center gap-2">
+            <img
+              src="https://themewagon.github.io/E-learning/images/banner/check-circle.svg"
+              alt=""
+            />
+            <span class="text-black">Flexible</span>
+          </div>
+          <div class="d-flex align-items-center gap-2">
+            <img
+              src="https://themewagon.github.io/E-learning/images/banner/check-circle.svg"
+              alt=""
+            />
+            <span class="text-black">Learning path</span>
+          </div>
+          <div class="d-flex align-items-center gap-2">
+            <img
+              src="https://themewagon.github.io/E-learning/images/banner/check-circle.svg"
+              alt=""
+            />
+            <span class="text-black">Community</span>
+          </div>
+        </div>
+      </div>
+      <div id="rightside" class="d-sm-block d-md-flex">
+        <img src="./mahila.png" alt="" />
+      </div>
+    </header>
+    <section class="container d-flex flex-column align-items-center mt-5 gap-5">
+      <h2 class="my-5">Trusted by companies of all sizes</h2>
+      <div class="col-12">
+        <marquee
+          width="100%"
+          scrollamount="20"
+          attribute="loop"
+          direction="left"
+        >
+          <img
+            src="https://themewagon.github.io/E-learning//images/companies/fedex.svg"
+            alt=""
+          />
+          <img
+            src="https://themewagon.github.io/E-learning//images/companies/airbnb.svg"
+            alt=""
+          />
+          <img
+            src="https://themewagon.github.io/E-learning//images/companies/walmart.svg"
+            alt=""
+          />
+          <img
+            src="https://themewagon.github.io/E-learning//images/companies/microsoft.svg"
+            alt=""
+          />
+          <img
+            src="https://themewagon.github.io/E-learning//images/companies/hubspot.svg"
+            alt=""
+          />
+          <img
+            src="https://themewagon.github.io/E-learning//images/companies/google.svg"
+            alt=""
+          />
+        </marquee>
+      </div>
+    </section>
+    <main class="container d-flex flex-column align-items-center mt-5 gap-5">
+      <div class="d-flex justify-content-between align-items-center w-100 mt-5">
+        <h2>Popular courses.</h2>
+        <a href="./index.html">Explore courses > </a>
+      </div>
+      <div class="d-flex justify-content-between gap-4 mt-3">
+        <div class="card shadow bg-white d-flex flex-column ">
+          <img
+            id="course"
+            class="position-relative"
+            src="./courseone.png"
+            alt=""
+          />
+          <div class="circle">
+            <h3 id="typo">
+              BEST <br />
+              SELLER
+            </h3>
+          </div>
+          <div class="ms-2 mt-2">
+            <a class="card-t" href="./index.html"
+              >Design banner with <br />
+              Figma</a
+            >
+          </div>
+          <h3 class="colt ms-2 my-4">Colt Steele</h3>
+          <div class="d-flex ms-2 align-items-center line">
+            <h3 class="text-danger me-2">5</h3>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="1.2em"
+              height="1.2em"
+              viewBox="0 0 36 36"
+            >
+              <path
+                fill="#ffac33"
+                d="M27.287 34.627c-.404 0-.806-.124-1.152-.371L18 28.422l-8.135 5.834a1.97 1.97 0 0 1-2.312-.008a1.97 1.97 0 0 1-.721-2.194l3.034-9.792l-8.062-5.681a1.98 1.98 0 0 1-.708-2.203a1.98 1.98 0 0 1 1.866-1.363L12.947 13l3.179-9.549a1.976 1.976 0 0 1 3.749 0L23 13l10.036.015a1.975 1.975 0 0 1 1.159 3.566l-8.062 5.681l3.034 9.792a1.97 1.97 0 0 1-.72 2.194a1.96 1.96 0 0 1-1.16.379"
+              />
+            </svg>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="1.2em"
+              height="1.2em"
+              viewBox="0 0 36 36"
+            >
+              <path
+                fill="#ffac33"
+                d="M27.287 34.627c-.404 0-.806-.124-1.152-.371L18 28.422l-8.135 5.834a1.97 1.97 0 0 1-2.312-.008a1.97 1.97 0 0 1-.721-2.194l3.034-9.792l-8.062-5.681a1.98 1.98 0 0 1-.708-2.203a1.98 1.98 0 0 1 1.866-1.363L12.947 13l3.179-9.549a1.976 1.976 0 0 1 3.749 0L23 13l10.036.015a1.975 1.975 0 0 1 1.159 3.566l-8.062 5.681l3.034 9.792a1.97 1.97 0 0 1-.72 2.194a1.96 1.96 0 0 1-1.16.379"
+              />
+            </svg>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="1.2em"
+              height="1.2em"
+              viewBox="0 0 36 36"
+            >
+              <path
+                fill="#ffac33"
+                d="M27.287 34.627c-.404 0-.806-.124-1.152-.371L18 28.422l-8.135 5.834a1.97 1.97 0 0 1-2.312-.008a1.97 1.97 0 0 1-.721-2.194l3.034-9.792l-8.062-5.681a1.98 1.98 0 0 1-.708-2.203a1.98 1.98 0 0 1 1.866-1.363L12.947 13l3.179-9.549a1.976 1.976 0 0 1 3.749 0L23 13l10.036.015a1.975 1.975 0 0 1 1.159 3.566l-8.062 5.681l3.034 9.792a1.97 1.97 0 0 1-.72 2.194a1.96 1.96 0 0 1-1.16.379"
+              />
+            </svg>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="1.2em"
+              height="1.2em"
+              viewBox="0 0 36 36"
+            >
+              <path
+                fill="#ffac33"
+                d="M27.287 34.627c-.404 0-.806-.124-1.152-.371L18 28.422l-8.135 5.834a1.97 1.97 0 0 1-2.312-.008a1.97 1.97 0 0 1-.721-2.194l3.034-9.792l-8.062-5.681a1.98 1.98 0 0 1-.708-2.203a1.98 1.98 0 0 1 1.866-1.363L12.947 13l3.179-9.549a1.976 1.976 0 0 1 3.749 0L23 13l10.036.015a1.975 1.975 0 0 1 1.159 3.566l-8.062 5.681l3.034 9.792a1.97 1.97 0 0 1-.72 2.194a1.96 1.96 0 0 1-1.16.379"
+              />
+            </svg>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="1.2em"
+              height="1.2em"
+              viewBox="0 0 36 36"
+            >
+              <path
+                fill="#ffac33"
+                d="M27.287 34.627c-.404 0-.806-.124-1.152-.371L18 28.422l-8.135 5.834a1.97 1.97 0 0 1-2.312-.008a1.97 1.97 0 0 1-.721-2.194l3.034-9.792l-8.062-5.681a1.98 1.98 0 0 1-.708-2.203a1.98 1.98 0 0 1 1.866-1.363L12.947 13l3.179-9.549a1.976 1.976 0 0 1 3.749 0L23 13l10.036.015a1.975 1.975 0 0 1 1.159 3.566l-8.062 5.681l3.034 9.792a1.97 1.97 0 0 1-.72 2.194a1.96 1.96 0 0 1-1.16.379"
+              />
+            </svg>
+            <h3 class="ms-auto fw-bold me-1">$20</h3>
+          </div>
+          <div class="d-flex align-items-center my-3">
+            <div class="d-flex align-items-center gap-4 ms-2">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="1.3em"
+                height="1.3em"
+                viewBox="0 0 512 512"
+              >
+                <path
+                  fill="none"
+                  stroke="#0213ae"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="32"
+                  d="M256 160c16-63.16 76.43-95.41 208-96a15.94 15.94 0 0 1 16 16v288a16 16 0 0 1-16 16c-128 0-177.45 25.81-208 64c-30.37-38-80-64-208-64c-9.88 0-16-8.05-16-17.93V80a15.94 15.94 0 0 1 16-16c131.57.59 192 32.84 208 96m0 0v288"
+                />
+              </svg>
+              <h3 class="cla text-black">12 classes</h3>
+            </div>
+            <div class="d-flex align-items-center gap-4 ms-auto me-2">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="1.3em"
+                height="1.3em"
+                viewBox="0 0 24 24"
+              >
+                <g
+                  fill="none"
+                  stroke="#0213ae"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="1.5"
+                >
+                  <path
+                    d="M2.5 6L8 4l5.5 2L11 7.5V9s-.667-.5-3-.5S5 9 5 9V7.5zm0 0v4"
+                  />
+                  <path
+                    d="M11 8.5v.889c0 1.718-1.343 3.111-3 3.111s-3-1.393-3-3.111V8.5m10.318 2.53s.485-.353 2.182-.353s2.182.352 2.182.352m-4.364 0V10L13.5 9l4-1.5l4 1.5l-1.818 1v1.03m-4.364 0v.288a2.182 2.182 0 1 0 4.364 0v-.289M4.385 15.926c-.943.527-3.416 1.602-1.91 2.947C3.211 19.53 4.03 20 5.061 20h5.878c1.03 0 1.85-.47 2.586-1.127c1.506-1.345-.967-2.42-1.91-2.947c-2.212-1.235-5.018-1.235-7.23 0M16 20h3.705c.773 0 1.387-.376 1.939-.902c1.13-1.076-.725-1.936-1.432-2.357A5.34 5.34 0 0 0 16 16.214"
+                  />
+                </g>
+              </svg>
+              <h3 class="cla text-black">150 students</h3>
+            </div>
+          </div>
+        </div>
+        <div class="card shadow bg-white d-flex flex-column">
+          <img
+            id="course"
+            class="position-relative"
+            src="./coursetwo.png"
+            alt=""
+          />
+          <div class="circle">
+            <h3 id="typo">
+              BEST <br />
+              SELLER
+            </h3>
+          </div>
+          <div class="ms-2 mt-2">
+            <a class="card-t" href="./index.html"
+              >We Launch Delia <br />
+              Webflow this Week!</a
+            >
+          </div>
+          <h3 class="colt ms-2 my-4">Colt Steele</h3>
+          <div class="d-flex ms-2 align-items-center line">
+            <h3 class="text-danger me-2">5</h3>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="1.2em"
+              height="1.2em"
+              viewBox="0 0 36 36"
+            >
+              <path
+                fill="#ffac33"
+                d="M27.287 34.627c-.404 0-.806-.124-1.152-.371L18 28.422l-8.135 5.834a1.97 1.97 0 0 1-2.312-.008a1.97 1.97 0 0 1-.721-2.194l3.034-9.792l-8.062-5.681a1.98 1.98 0 0 1-.708-2.203a1.98 1.98 0 0 1 1.866-1.363L12.947 13l3.179-9.549a1.976 1.976 0 0 1 3.749 0L23 13l10.036.015a1.975 1.975 0 0 1 1.159 3.566l-8.062 5.681l3.034 9.792a1.97 1.97 0 0 1-.72 2.194a1.96 1.96 0 0 1-1.16.379"
+              />
+            </svg>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="1.2em"
+              height="1.2em"
+              viewBox="0 0 36 36"
+            >
+              <path
+                fill="#ffac33"
+                d="M27.287 34.627c-.404 0-.806-.124-1.152-.371L18 28.422l-8.135 5.834a1.97 1.97 0 0 1-2.312-.008a1.97 1.97 0 0 1-.721-2.194l3.034-9.792l-8.062-5.681a1.98 1.98 0 0 1-.708-2.203a1.98 1.98 0 0 1 1.866-1.363L12.947 13l3.179-9.549a1.976 1.976 0 0 1 3.749 0L23 13l10.036.015a1.975 1.975 0 0 1 1.159 3.566l-8.062 5.681l3.034 9.792a1.97 1.97 0 0 1-.72 2.194a1.96 1.96 0 0 1-1.16.379"
+              />
+            </svg>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="1.2em"
+              height="1.2em"
+              viewBox="0 0 36 36"
+            >
+              <path
+                fill="#ffac33"
+                d="M27.287 34.627c-.404 0-.806-.124-1.152-.371L18 28.422l-8.135 5.834a1.97 1.97 0 0 1-2.312-.008a1.97 1.97 0 0 1-.721-2.194l3.034-9.792l-8.062-5.681a1.98 1.98 0 0 1-.708-2.203a1.98 1.98 0 0 1 1.866-1.363L12.947 13l3.179-9.549a1.976 1.976 0 0 1 3.749 0L23 13l10.036.015a1.975 1.975 0 0 1 1.159 3.566l-8.062 5.681l3.034 9.792a1.97 1.97 0 0 1-.72 2.194a1.96 1.96 0 0 1-1.16.379"
+              />
+            </svg>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="1.2em"
+              height="1.2em"
+              viewBox="0 0 36 36"
+            >
+              <path
+                fill="#ffac33"
+                d="M27.287 34.627c-.404 0-.806-.124-1.152-.371L18 28.422l-8.135 5.834a1.97 1.97 0 0 1-2.312-.008a1.97 1.97 0 0 1-.721-2.194l3.034-9.792l-8.062-5.681a1.98 1.98 0 0 1-.708-2.203a1.98 1.98 0 0 1 1.866-1.363L12.947 13l3.179-9.549a1.976 1.976 0 0 1 3.749 0L23 13l10.036.015a1.975 1.975 0 0 1 1.159 3.566l-8.062 5.681l3.034 9.792a1.97 1.97 0 0 1-.72 2.194a1.96 1.96 0 0 1-1.16.379"
+              />
+            </svg>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="1.2em"
+              height="1.2em"
+              viewBox="0 0 36 36"
+            >
+              <path
+                fill="#ffac33"
+                d="M27.287 34.627c-.404 0-.806-.124-1.152-.371L18 28.422l-8.135 5.834a1.97 1.97 0 0 1-2.312-.008a1.97 1.97 0 0 1-.721-2.194l3.034-9.792l-8.062-5.681a1.98 1.98 0 0 1-.708-2.203a1.98 1.98 0 0 1 1.866-1.363L12.947 13l3.179-9.549a1.976 1.976 0 0 1 3.749 0L23 13l10.036.015a1.975 1.975 0 0 1 1.159 3.566l-8.062 5.681l3.034 9.792a1.97 1.97 0 0 1-.72 2.194a1.96 1.96 0 0 1-1.16.379"
+              />
+            </svg>
+            <h3 class="ms-auto fw-bold me-1">$20</h3>
+          </div>
+          <div class="d-flex align-items-center my-3">
+            <div class="d-flex align-items-center gap-4 ms-2">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="1.3em"
+                height="1.3em"
+                viewBox="0 0 512 512"
+              >
+                <path
+                  fill="none"
+                  stroke="#0213ae"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="32"
+                  d="M256 160c16-63.16 76.43-95.41 208-96a15.94 15.94 0 0 1 16 16v288a16 16 0 0 1-16 16c-128 0-177.45 25.81-208 64c-30.37-38-80-64-208-64c-9.88 0-16-8.05-16-17.93V80a15.94 15.94 0 0 1 16-16c131.57.59 192 32.84 208 96m0 0v288"
+                />
+              </svg>
+              <h3 class="cla text-black">12 classes</h3>
+            </div>
+            <div class="d-flex align-items-center gap-4 ms-auto me-2">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="1.3em"
+                height="1.3em"
+                viewBox="0 0 24 24"
+              >
+                <g
+                  fill="none"
+                  stroke="#0213ae"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="1.5"
+                >
+                  <path
+                    d="M2.5 6L8 4l5.5 2L11 7.5V9s-.667-.5-3-.5S5 9 5 9V7.5zm0 0v4"
+                  />
+                  <path
+                    d="M11 8.5v.889c0 1.718-1.343 3.111-3 3.111s-3-1.393-3-3.111V8.5m10.318 2.53s.485-.353 2.182-.353s2.182.352 2.182.352m-4.364 0V10L13.5 9l4-1.5l4 1.5l-1.818 1v1.03m-4.364 0v.288a2.182 2.182 0 1 0 4.364 0v-.289M4.385 15.926c-.943.527-3.416 1.602-1.91 2.947C3.211 19.53 4.03 20 5.061 20h5.878c1.03 0 1.85-.47 2.586-1.127c1.506-1.345-.967-2.42-1.91-2.947c-2.212-1.235-5.018-1.235-7.23 0M16 20h3.705c.773 0 1.387-.376 1.939-.902c1.13-1.076-.725-1.936-1.432-2.357A5.34 5.34 0 0 0 16 16.214"
+                  />
+                </g>
+              </svg>
+              <h3 class="cla text-black">150 students</h3>
+            </div>
+          </div>
+        </div>
+        <div class="card shadow bg-white d-flex flex-column">
+          <img
+            id="course"
+            class="position-relative"
+            src="./coursethree.png"
+            alt=""
+          />
+          <div class="circle">
+            <h3 id="typo">
+              BEST <br />
+              SELLER
+            </h3>
+          </div>
+          <div class="ms-2 mt-2">
+            <a class="card-t" href="./index.html"
+              >We Launch Delia <br />
+              Webflow this Week!</a
+            >
+          </div>
+          <h3 class="colt ms-2 my-4">Colt Steele</h3>
+          <div class="d-flex ms-2 align-items-center line">
+            <h3 class="text-danger me-2">5</h3>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="1.2em"
+              height="1.2em"
+              viewBox="0 0 36 36"
+            >
+              <path
+                fill="#ffac33"
+                d="M27.287 34.627c-.404 0-.806-.124-1.152-.371L18 28.422l-8.135 5.834a1.97 1.97 0 0 1-2.312-.008a1.97 1.97 0 0 1-.721-2.194l3.034-9.792l-8.062-5.681a1.98 1.98 0 0 1-.708-2.203a1.98 1.98 0 0 1 1.866-1.363L12.947 13l3.179-9.549a1.976 1.976 0 0 1 3.749 0L23 13l10.036.015a1.975 1.975 0 0 1 1.159 3.566l-8.062 5.681l3.034 9.792a1.97 1.97 0 0 1-.72 2.194a1.96 1.96 0 0 1-1.16.379"
+              />
+            </svg>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="1.2em"
+              height="1.2em"
+              viewBox="0 0 36 36"
+            >
+              <path
+                fill="#ffac33"
+                d="M27.287 34.627c-.404 0-.806-.124-1.152-.371L18 28.422l-8.135 5.834a1.97 1.97 0 0 1-2.312-.008a1.97 1.97 0 0 1-.721-2.194l3.034-9.792l-8.062-5.681a1.98 1.98 0 0 1-.708-2.203a1.98 1.98 0 0 1 1.866-1.363L12.947 13l3.179-9.549a1.976 1.976 0 0 1 3.749 0L23 13l10.036.015a1.975 1.975 0 0 1 1.159 3.566l-8.062 5.681l3.034 9.792a1.97 1.97 0 0 1-.72 2.194a1.96 1.96 0 0 1-1.16.379"
+              />
+            </svg>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="1.2em"
+              height="1.2em"
+              viewBox="0 0 36 36"
+            >
+              <path
+                fill="#ffac33"
+                d="M27.287 34.627c-.404 0-.806-.124-1.152-.371L18 28.422l-8.135 5.834a1.97 1.97 0 0 1-2.312-.008a1.97 1.97 0 0 1-.721-2.194l3.034-9.792l-8.062-5.681a1.98 1.98 0 0 1-.708-2.203a1.98 1.98 0 0 1 1.866-1.363L12.947 13l3.179-9.549a1.976 1.976 0 0 1 3.749 0L23 13l10.036.015a1.975 1.975 0 0 1 1.159 3.566l-8.062 5.681l3.034 9.792a1.97 1.97 0 0 1-.72 2.194a1.96 1.96 0 0 1-1.16.379"
+              />
+            </svg>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="1.2em"
+              height="1.2em"
+              viewBox="0 0 36 36"
+            >
+              <path
+                fill="#ffac33"
+                d="M27.287 34.627c-.404 0-.806-.124-1.152-.371L18 28.422l-8.135 5.834a1.97 1.97 0 0 1-2.312-.008a1.97 1.97 0 0 1-.721-2.194l3.034-9.792l-8.062-5.681a1.98 1.98 0 0 1-.708-2.203a1.98 1.98 0 0 1 1.866-1.363L12.947 13l3.179-9.549a1.976 1.976 0 0 1 3.749 0L23 13l10.036.015a1.975 1.975 0 0 1 1.159 3.566l-8.062 5.681l3.034 9.792a1.97 1.97 0 0 1-.72 2.194a1.96 1.96 0 0 1-1.16.379"
+              />
+            </svg>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="1.2em"
+              height="1.2em"
+              viewBox="0 0 36 36"
+            >
+              <path
+                fill="#ffac33"
+                d="M27.287 34.627c-.404 0-.806-.124-1.152-.371L18 28.422l-8.135 5.834a1.97 1.97 0 0 1-2.312-.008a1.97 1.97 0 0 1-.721-2.194l3.034-9.792l-8.062-5.681a1.98 1.98 0 0 1-.708-2.203a1.98 1.98 0 0 1 1.866-1.363L12.947 13l3.179-9.549a1.976 1.976 0 0 1 3.749 0L23 13l10.036.015a1.975 1.975 0 0 1 1.159 3.566l-8.062 5.681l3.034 9.792a1.97 1.97 0 0 1-.72 2.194a1.96 1.96 0 0 1-1.16.379"
+              />
+            </svg>
+            <h3 class="ms-auto fw-bold me-1">$20</h3>
+          </div>
+          <div class="d-flex align-items-center my-3">
+            <div class="d-flex align-items-center gap-4 ms-2">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="1.3em"
+                height="1.3em"
+                viewBox="0 0 512 512"
+              >
+                <path
+                  fill="none"
+                  stroke="#0213ae"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="32"
+                  d="M256 160c16-63.16 76.43-95.41 208-96a15.94 15.94 0 0 1 16 16v288a16 16 0 0 1-16 16c-128 0-177.45 25.81-208 64c-30.37-38-80-64-208-64c-9.88 0-16-8.05-16-17.93V80a15.94 15.94 0 0 1 16-16c131.57.59 192 32.84 208 96m0 0v288"
+                />
+              </svg>
+              <h3 class="cla text-black">12 classes</h3>
+            </div>
+            <div class="d-flex align-items-center gap-4 ms-auto me-2">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="1.3em"
+                height="1.3em"
+                viewBox="0 0 24 24"
+              >
+                <g
+                  fill="none"
+                  stroke="#0213ae"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="1.5"
+                >
+                  <path
+                    d="M2.5 6L8 4l5.5 2L11 7.5V9s-.667-.5-3-.5S5 9 5 9V7.5zm0 0v4"
+                  />
+                  <path
+                    d="M11 8.5v.889c0 1.718-1.343 3.111-3 3.111s-3-1.393-3-3.111V8.5m10.318 2.53s.485-.353 2.182-.353s2.182.352 2.182.352m-4.364 0V10L13.5 9l4-1.5l4 1.5l-1.818 1v1.03m-4.364 0v.288a2.182 2.182 0 1 0 4.364 0v-.289M4.385 15.926c-.943.527-3.416 1.602-1.91 2.947C3.211 19.53 4.03 20 5.061 20h5.878c1.03 0 1.85-.47 2.586-1.127c1.506-1.345-.967-2.42-1.91-2.947c-2.212-1.235-5.018-1.235-7.23 0M16 20h3.705c.773 0 1.387-.376 1.939-.902c1.13-1.076-.725-1.936-1.432-2.357A5.34 5.34 0 0 0 16 16.214"
+                  />
+                </g>
+              </svg>
+              <h3 class="cla text-black">130 students</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

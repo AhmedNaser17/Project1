@@ -1,0 +1,150 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+button {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px;
+  background-color: rgb(101, 86, 255);
+  color: rgb(255, 255, 255);
+  height: 68px;
+  border: 0px solid rgb(229, 231, 235);
+  padding: 20px 64px;
+  cursor: pointer;
+  border-radius: 9999px;
+}
+button:hover {
+  background-color: rgba(101, 86, 255, 0.15);
+  color: rgb(101, 86, 255);
+}
+a {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  text-decoration: none;
+  cursor: pointer;
+  color: rgb(87, 89, 95);
+}
+
+header div div p {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  color: rgb(67, 198, 57);
+}
+
+header div div h1 {
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 48px;
+  color: rgb(34, 44, 68);
+}
+header div div h3 {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  color: rgba(0, 0, 0, 0.7);
+}
+div input {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  width: 624px;
+  height: 92px;
+  line-height: 28px;
+  padding: 0px 32px;
+  box-shadow: 0 63px 59px rgba(26, 33, 188, 0.1);
+  border: 0px solid rgb(229, 231, 235);
+}
+header div div button {
+  background-color: rgb(26, 33, 188);
+  position: absolute;
+  width: 82px;
+  height: 82px;
+  right: 0px;
+}
+span {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  color: rgb(0, 0, 0);
+}
+#rightside img {
+  width: 100%;
+  height: auto;
+}
+section h2 {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 32px;
+  color: rgb(34, 44, 68);
+}
+marquee {
+  padding: 10px 0;
+  border-bottom: 2px solid rgb(229, 231, 235);
+  margin-bottom: 30px;
+}
+marquee img {
+  margin: 20px 30px;
+}
+main div h2 {
+  color: rgb(34, 44, 68);
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 48px;
+}
+main div a {
+  color: rgb(101, 86, 255);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px;
+  text-decoration: none;
+}
+
+#course {
+  width: 100%;
+  height: auto;
+}
+.circle {
+  background-color: rgb(26, 33, 188);
+  border-radius: 9999px;
+  border: 0px solid rgb(229, 231, 235);
+  position: absolute;
+  width: 92.4219px;
+  height: 88px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  right: 7%;
+  bottom: 42%;
+
+}
+#typo {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
+.card-t{
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  color: rgb(0, 0, 0);
+}
+.colt{
+  color:  rgba(0, 0, 0, 0.75);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+.line{
+  margin-bottom: 10px;
+  border-bottom: 1px solid rgb(229, 231, 235);
+}
+.cla{
+  line-height: 24px;
+  font-weight: 500;
+  font-size: 16px;
+}
