@@ -20,6 +20,22 @@ button:hover {
   background-color: rgba(101, 86, 255, 0.15);
   color: rgb(101, 86, 255);
 }
+.bttn {
+  background-color: rgba(101, 86, 255, 0.15);
+  color: rgb(101, 86, 255);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px;
+  height: 68px;
+  border: 0px solid rgb(229, 231, 235);
+  padding: 20px 64px;
+  cursor: pointer;
+  border-radius: 9999px;
+}
+.bttn:hover {
+  background-color: rgb(101, 86, 255);
+  color: rgb(255, 255, 255);
+}
 a {
   font-size: 1.125rem;
   line-height: 1.75rem;
@@ -27,6 +43,7 @@ a {
   cursor: pointer;
   color: rgb(87, 89, 95);
 }
+
 
 header div div p {
   font-size: 14px;
@@ -118,7 +135,6 @@ main div a {
   justify-content: center;
   right: 7%;
   bottom: 42%;
-
 }
 #typo {
   font-size: 14px;
@@ -127,41 +143,40 @@ main div a {
   color: rgb(255, 255, 255);
   text-align: center;
 }
-.card-t{
+.card-t {
   font-size: 24px;
   font-weight: 700;
   line-height: 32px;
   color: rgb(0, 0, 0);
 }
-.colt{
-  color:  rgba(0, 0, 0, 0.75);
+.colt {
+  color: rgba(0, 0, 0, 0.75);
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
 }
-.line{
+.line {
   margin-bottom: 10px;
   border-bottom: 1px solid rgb(229, 231, 235);
 }
-.cla{
+.cla {
   line-height: 24px;
   font-weight: 500;
   font-size: 16px;
 }
 .deep-slate {
-  background-color:rgb(213, 239, 250);
-   overflow: hidden;
+  background-color: rgb(213, 239, 250);
+  overflow: hidden;
 }
-.deep-slate div h2{
+.deep-slate div h2 {
   color: rgb(34, 44, 68);
   font-size: 48px;
   font-weight: 600;
   line-height: 48px;
   text-align: start;
   margin-bottom: 5%;
-
 }
-.place{
+.place {
   position: absolute;
   bottom: 45%;
   right: 30%;
@@ -174,13 +189,13 @@ main div a {
   justify-content: center;
   box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
 }
-#shoo{
+#shoo {
   font-size: 24px;
   font-weight: 600;
   line-height: 32px;
   text-align: center;
 }
-#ux{
+#ux {
   font-size: 18px;
   font-weight: 400;
   line-height: 28px;
@@ -188,27 +203,26 @@ main div a {
   opacity: 0.5;
   text-align: center;
 }
-#test{
-
+#test {
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
   color: rgb(0, 0, 0);
 }
 
-.leslie{
+.leslie {
   font-size: 18px;
   font-weight: 500;
   line-height: 28px;
   color: rgb(0, 0, 0);
 }
-.ceo{
+.ceo {
   font-size: 14px;
   font-weight: 400;
   line-height: 20px;
   color: rgb(0, 0, 0);
 }
-.card-bor{
+.card-bor {
   border: 1px solid rgb(229, 231, 235);
   border-radius: 8px;
   padding: 20px;
@@ -217,7 +231,7 @@ main div a {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-.backg-img{
+.backg-img {
   background-image: url(./bgFile.png);
   background-size: contain;
   background-repeat: no-repeat;
@@ -225,62 +239,60 @@ main div a {
   height: 400px;
   width: 100%;
 }
-.News{
+.News {
   line-height: 24px;
   font-weight: 600;
   font-size: 48px;
   color: rgb(255, 255, 255);
   text-align: center;
   @media screen and (max-width: 768px) {
-  text-shadow: 2px 2px 5px rgba(0, 0, 0);
-
+    text-shadow: 2px 2px 5px rgba(0, 0, 0);
   }
 }
-.sub{
+.sub {
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
   color: rgba(255, 255, 255, 0.75);
   text-align: center;
 }
-.circleinp{
+.circleinp {
   border-radius: 9999px;
   @media screen and (max-width: 768px) {
     box-shadow: 1px 1px 9px rgba(0, 0, 0, 0.2);
   }
 }
-.lastdiv{
+.lastdiv {
   background-color: rgb(213, 239, 250);
 }
 
-.links{
+.links {
   font-weight: 500;
   font-size: 24px;
   line-height: 32px;
   color: black;
 }
-.fourthpart div h5{
+.fourthpart div h5 {
   color: rgba(0, 0, 0, 0.6);
   font-size: 18px;
   font-weight: 400;
   line-height: 28px;
-
 }
-.lastline h4{
+.lastline h4 {
   color: rgba(0, 0, 0, 0.5);
   font-size: 14px;
-  font-weight: 400; 
+  font-weight: 400;
   line-height: 20px;
 }
-.lastline h4 a{
+.lastline h4 a {
   color: rgba(0, 0, 0, 0.5);
   font-size: 14px;
-  font-weight: 400; 
+  font-weight: 400;
   line-height: 20px;
 }
-.lastline div a{
+.lastline div a {
   color: rgba(0, 0, 0, 0.5);
   font-size: 14px;
-  font-weight: 400; 
+  font-weight: 400;
   line-height: 20px;
 }

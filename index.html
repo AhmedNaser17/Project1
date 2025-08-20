@@ -16,7 +16,6 @@
   <body>
     <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top mt-3 mb-5">
       <div class="container d-flex justify-content-between align-items-center">
-        <!-- ✅ Logo -->
         <a class="navbar-brand" href="#">
           <img
             src="https://themewagon.github.io/E-learning/images/logo/logo.svg"
@@ -24,7 +23,6 @@
           />
         </a>
 
-        <!-- ✅ Toggler icon -->
         <button
           class="navbar-toggler"
           type="button"
@@ -36,7 +34,6 @@
           <span class="navbar-toggler-icon"></span>
         </button>
 
-        <!-- ✅ Offcanvas menu -->
         <div
           class="offcanvas offcanvas-end"
           tabindex="-1"
@@ -62,19 +59,18 @@
             <div
               class="d-flex flex-column flex-lg-row justify-content-between align-items-center gap-4 p-4"
             >
-              <!-- ✅ Navigation links -->
               <div class="d-flex flex-column flex-lg-row gap-4">
-                <a href="#" class="text-black">Home</a>
-                <a href="#">Courses</a>
-                <a href="#">Mentor</a>
+                <a href="#" class="text-black ">Home</a>
+                <a href="#courses">Courses</a>
+                <a href="#mentors">Mentor</a>
                 <a href="#">Group</a>
-                <a href="#">Testimonial</a>
+                <a href="#testimonial">Testimonial</a>
                 <a href="#">Docs</a>
               </div>
             </div>
             <div class="d-md-flex gap-3">
               <button>Sign in</button>
-              <button>Sign up</button>
+              <button class="bttn">Sign up</button>
             </div>
           </div>
         </div>
@@ -202,7 +198,7 @@
         <h2>Popular courses.</h2>
         <a href="./index.html">Explore courses > </a>
       </div>
-      <div
+      <div id="courses"
         class="d-flex justify-content-between gap-4 mt-3 flex-wrap align-items-sm-center"
       >
         <div class="card shadow bg-white d-flex flex-column">
@@ -581,7 +577,7 @@
     </main>
     <div class="deep-slate py-5">
       <div class="container">
-        <h2>
+        <h2 id="mentors">
           Meet with our <br />
           mentor.
         </h2>
