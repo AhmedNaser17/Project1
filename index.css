@@ -188,3 +188,99 @@ main div a {
   opacity: 0.5;
   text-align: center;
 }
+#test{
+
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: rgb(0, 0, 0);
+}
+
+.leslie{
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px;
+  color: rgb(0, 0, 0);
+}
+.ceo{
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  color: rgb(0, 0, 0);
+}
+.card-bor{
+  border: 1px solid rgb(229, 231, 235);
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+  background-color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.backg-img{
+  background-image: url(./bgFile.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 400px;
+  width: 100%;
+}
+.News{
+  line-height: 24px;
+  font-weight: 600;
+  font-size: 48px;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  @media screen and (max-width: 768px) {
+  text-shadow: 2px 2px 5px rgba(0, 0, 0);
+
+  }
+}
+.sub{
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: rgba(255, 255, 255, 0.75);
+  text-align: center;
+}
+.circleinp{
+  border-radius: 9999px;
+  @media screen and (max-width: 768px) {
+    box-shadow: 1px 1px 9px rgba(0, 0, 0, 0.2);
+  }
+}
+.lastdiv{
+  background-color: rgb(213, 239, 250);
+}
+
+.links{
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+  color: black;
+}
+.fourthpart div h5{
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+
+}
+.lastline h4{
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 14px;
+  font-weight: 400; 
+  line-height: 20px;
+}
+.lastline h4 a{
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 14px;
+  font-weight: 400; 
+  line-height: 20px;
+}
+.lastline div a{
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 14px;
+  font-weight: 400; 
+  line-height: 20px;
+}
